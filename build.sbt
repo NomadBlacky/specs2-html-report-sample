@@ -9,5 +9,5 @@ lazy val root = (project in file(".")).
     libraryDependencies ++= Seq(
       "org.specs2" %% "specs2-html" % "4.3.0" % "test"
     ),
-    testOptions in Test += Tests.Argument(TestFrameworks.Specs2, "html", "!pandoc", "console")
+    testOptions in Test += Tests.Argument(TestFrameworks.Specs2,  "console", "html", "!pandoc", "html.outdir", "docs")
   )
