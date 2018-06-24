@@ -1,8 +1,6 @@
-package example
-
 import org.specs2._
-import specification.core._
-import runner.SpecificationsFinder._
+import org.specs2.runner.SpecificationsFinder._
+import org.specs2.specification.core._
 
 class index extends Specification { def is =
 
